@@ -11,7 +11,7 @@ builder.Services.AddAuthentication(options =>
     .AddCookie("Cookies")
     .AddOpenIdConnect("oidc", options =>
     {
-        options.Authority = "https://localhost:5001";
+        options.Authority = "https://localhost:7001";
         options.ClientId = "web";
         options.ClientSecret = "secret";
         options.ResponseType = "code";
@@ -44,6 +44,6 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapRazorPages();
+app.MapRazorPages().RequireAuthorization();
 
 app.Run();

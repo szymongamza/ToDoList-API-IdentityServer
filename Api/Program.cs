@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
     {
-        options.Authority = "https://localhost:5101";
+        options.Authority = "https://localhost:7001";
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateAudience = false
