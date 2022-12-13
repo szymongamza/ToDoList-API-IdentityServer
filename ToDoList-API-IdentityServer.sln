@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClient", "WebClient\WebClient.csproj", "{AD00D22F-3CEA-42A1-BDA8-D4F1458C9F73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerAspNetIdentity", "IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{A5B51A24-C0EF-4BD1-9999-C065E83192C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AD00D22F-3CEA-42A1-BDA8-D4F1458C9F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD00D22F-3CEA-42A1-BDA8-D4F1458C9F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD00D22F-3CEA-42A1-BDA8-D4F1458C9F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B51A24-C0EF-4BD1-9999-C065E83192C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B51A24-C0EF-4BD1-9999-C065E83192C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B51A24-C0EF-4BD1-9999-C065E83192C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B51A24-C0EF-4BD1-9999-C065E83192C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
